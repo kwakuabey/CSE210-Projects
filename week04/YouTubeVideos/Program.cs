@@ -24,7 +24,6 @@ video3._comments.Add(new Comment("Linda", "Looks delicious."));
 video3._comments.Add(new Comment("Daniel", "I will try this recipe."));
 video3._comments.Add(new Comment("Grace", "Easy to understand."));
 videos.Add(video3);
-
         foreach (Video video in videos)
         {
             Console.WriteLine($"Title: {video._title}");
